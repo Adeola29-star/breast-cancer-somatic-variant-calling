@@ -1,0 +1,10 @@
+Step,Tool,Version,Purpose
+Quality Control,FastQC,0.12.1,Assess raw sequencing read quality
+Read Alignment,BWA-MEM,0.7.17,Align sequencing reads to the GRCh38 human reference genome
+Alignment Processing,SAMtools,1.21,Sort and index BAM files
+Duplicate Marking,Picard,3.4.0,Identify and mark PCR duplicates
+Somatic Variant Calling,GATK Mutect2,4.6.2.0,Detect somatic variants from matched tumour-normal samples
+Variant Filtering,GATK FilterMutectCalls,4.6.2.0,Filter low-confidence somatic variants
+Variant Statistics,bcftools,1.21,Generate summary statistics and variant metrics
+Variant Annotation,Ensembl VEP,116,Annotate variants with functional and clinical information
+Command-Line Environment,Bash,5.x,Automate and execute the analysis workflow

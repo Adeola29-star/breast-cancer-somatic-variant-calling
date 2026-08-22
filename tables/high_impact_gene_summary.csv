@@ -1,0 +1,5 @@
+Gene,Mutation Type,Protein Change,Clinical Interpretation
+BRCA2,Stop gained,p.Glu1593Ter,Predicted loss of BRCA2 function causing homologous recombination deficiency and potential sensitivity to PARP inhibitors.
+KMT2C,Frameshift,p.Lys2797ArgfsTer26,Predicted truncating mutation disrupting chromatin remodelling and epigenetic regulation.
+KMT2C,Stop gained,p.Cys391Ter,Independent truncating mutation further supporting loss of KMT2C tumour suppressor function.
+NF1,Splice donor,c.730+2T>G,Predicted disruption of RNA splicing leading to loss of neurofibromin and activation of the RAS signalling pathway.

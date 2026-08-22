@@ -1,0 +1,13 @@
+Consequence,Count
+intron_variant,7589
+intron_variant&non_coding_transcript_variant,2605
+non_coding_transcript_exon_variant,1801
+missense_variant,1783
+3_prime_UTR_variant,1378
+upstream_gene_variant,1253
+downstream_gene_variant,1241
+synonymous_variant,949
+intergenic_variant,738
+frameshift_variant,111
+stop_gained,44
+
