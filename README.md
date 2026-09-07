@@ -40,16 +40,20 @@ The objectives of this analysis were to:
 
 ## Dataset
 
-The analysis used paired tumour–normal sequencing data identified by the following sequencing run accessions:
+This project uses paired tumor–normal whole-exome sequencing (WES) data from the **HCC1395 breast cancer cell line** and its matched normal lymphoblastoid cell line **HCC1395BL**.
 
-* **SRR37849526**
-* **SRR37849527**
+| Sample    | Role           | SRA accession |
+| --------- | -------------- | ------------- |
+| HCC1395   | Tumor          | `SRR37849527` |
+| HCC1395BL | Matched normal | `SRR37849526` |
 
-Sequencing strategy: Whole-exome sequencing (WES).
+The data are part of **NCBI BioProject PRJNA1445230**, titled *Whole Exome Sequencing of HCC1395 Tumor and Matched Normal HCC1395BL with Bulk RNA-seq of HCC1395*. The study was submitted by Washington University in St Louis.
 
-The project used paired-end FASTQ files for the two samples.
+The tumor experiment (`SRX32714295`) used NimbleGen Exome v3 enrichment, Illumina HiSeq 2500 sequencing, whole-exome sequencing (WXS), hybrid selection, and paired-end sequencing. The corresponding run (`SRR37849527`) contains approximately 96.1 million paired-end spots and 19.2 Gbases of sequence data.
 
-The raw sequencing data are **not included in this repository** because of their large file size. The repository instead contains the processed results, summary tables, figures, and scripts required to document the analytical workflow.
+The project used paired-end FASTQ files for both samples. The raw sequencing data are **not included in this repository** because of their large file size — the repository instead contains the processed results, summary tables, figures, and scripts required to document the analytical workflow.
+
+---
 
 ### Data processing
 
