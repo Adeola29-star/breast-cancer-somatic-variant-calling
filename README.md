@@ -356,6 +356,14 @@ Pathway membership alone was not treated as evidence of pathway activation. Beca
 
 Raw FASTQ files, BAM files and reference genome files are not stored in the GitHub repository because of their size. The repository instead contains the scripts, summary outputs, tables and figures necessary to document the analysis.
 
+### 7. Single-sample analysis
+
+This analysis is based on a single tumour–normal pair. Findings reflect the somatic variant profile of this individual sample and should not be generalised to breast cancer as a whole without validation across additional patients/cohorts.
+
+### 8. Mapping artefacts in complex genomic regions
+
+Some genes in the HIGH-impact list including HLA loci (e.g. HLA-DQA1, HLA-DRB1) and mucin genes (e.g. MUC4, MUC16, MUC6) lie in highly polymorphic or repetitive genomic regions that are prone to alignment and mapping artefacts. HIGH-impact calls in these regions are more likely to reflect technical mapping difficulty than genuine truncating somatic mutations, and would require additional scrutiny (e.g. manual alignment review, orthogonal confirmation) before being treated as biologically meaningful.
+
 ---
 
 ## Reproducibility
