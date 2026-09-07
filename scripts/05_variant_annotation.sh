@@ -26,7 +26,7 @@ set -euo pipefail
 #   Ensembl release 116, GRCh38
 
 VEP="$HOME/ensembl-vep/vep"
-REFERENCE="$HOME/bioinformatics-portfolio/breast-cancer-variant-calling/reference/Homo_sapiens.GRCh38.dna.primary_assembly.fa"
+REFERENCE="../reference/Homo_sapiens.GRCh38.dna.primary_assembly.fa"
 CACHE="$HOME/.vep"
 INPUT="../mutect2_output/tumor_normal_filtered.vcf.gz"
 OUTPUT="../mutect2_output/tumor_normal_annotated_pick.vep.vcf"
