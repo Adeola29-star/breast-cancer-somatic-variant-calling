@@ -45,6 +45,8 @@ The analysis used paired tumour–normal sequencing data identified by the follo
 * **SRR37849526**
 * **SRR37849527**
 
+Sequencing strategy: Whole-exome sequencing (WES).
+
 The project used paired-end FASTQ files for the two samples.
 
 The raw sequencing data are **not included in this repository** because of their large file size. The repository instead contains the processed results, summary tables, figures, and scripts required to document the analytical workflow.
