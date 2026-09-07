@@ -1,0 +1,3 @@
+variant_type	TP	FP	FN	precision	recall	F1
+SNV	1166	307	613	79.16	65.54	71.71
+INDEL	62	70	25	46.97	71.26	56.62
