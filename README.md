@@ -365,7 +365,30 @@ This analysis is based on a single tumour–normal pair. Findings reflect the so
 Some genes in the HIGH-impact list including HLA loci (e.g. HLA-DQA1, HLA-DRB1) and mucin genes (e.g. MUC4, MUC16, MUC6) lie in highly polymorphic or repetitive genomic regions that are prone to alignment and mapping artefacts. HIGH-impact calls in these regions are more likely to reflect technical mapping difficulty than genuine truncating somatic mutations, and would require additional scrutiny (e.g. manual alignment review, orthogonal confirmation) before being treated as biologically meaningful.
 
 ---
+## Getting the data
 
+The raw sequencing data and reference genome are not included in this repository due to file size, but can be re-downloaded using the steps below.
+
+### Download raw sequencing reads
+
+Requires the [SRA Toolkit](https://github.com/ncbi/sra-tools).
+
+```bash
+prefetch SRR37849526 SRR37849527
+fasterq-dump SRR37849526 --split-files -O data/raw/
+fasterq-dump SRR37849527 --split-files -O data/raw/
+```
+
+### Download the reference genome
+
+```bash
+wget https://ftp.ensembl.org/pub/release-116/fasta/homo_sapiens/dna/Homo_sapiens.GRCh38.dna.primary_assembly.fa.gz -P reference/
+gunzip reference/Homo_sapiens.GRCh38.dna.primary_assembly.fa.gz
+```
+
+Once the raw data and reference genome are in place, the scripts in `scripts/` can be run in order (`01` through `06`) to reproduce the full workflow.
+
+---
 ## Reproducibility
 
 The repository is organised so that the main analytical stages can be followed from the shell scripts:
