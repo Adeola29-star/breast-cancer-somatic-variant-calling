@@ -19,12 +19,12 @@ A tumour sample can contain sequencing artefacts, alignment errors, germline var
 
 The problem addressed in this project was:
 
-> **Can a paired tumour–normal WES workflow identify and characterise somatic variants in the HCC1395 breast cancer model, and how well do the resulting calls agree with an established benchmark truth set?**
+> **Can a paired tumour-normal WES workflow identify and characterise somatic variants in the HCC1395 breast cancer model, and how well do the resulting calls agree with an established benchmark truth set?**
 
 The project therefore combines two components:
 
-1. **Somatic variant analysis** — from raw sequencing reads through variant calling, filtering, functional annotation, and biological interpretation.
-2. **Benchmark validation** — evaluation of the final variant calls against the SEQC2 HCC1395 somatic truth set within genomic regions that were actually targeted by the WES assay and considered high-confidence by SEQC2.
+1. **Somatic variant analysis** - from raw sequencing reads through variant calling, filtering, functional annotation, and biological interpretation.
+2. **Benchmark validation** - evaluation of the final variant calls against the SEQC2 HCC1395 somatic truth set within genomic regions that were actually targeted by the WES assay and considered high-confidence by SEQC2.
 
 This provides a more complete assessment of the workflow than reporting variant counts alone.
 
