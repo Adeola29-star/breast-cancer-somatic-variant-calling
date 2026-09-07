@@ -362,7 +362,7 @@ This analysis is based on a single tumour–normal pair. Findings reflect the so
 
 ### 8. Mapping artefacts in complex genomic regions
 
-Some genes in the HIGH-impact list — including HLA loci (e.g. HLA-DQA1, HLA-DRB1) and mucin genes (e.g. MUC4, MUC16, MUC6) — lie in highly polymorphic or repetitive genomic regions that are prone to alignment and mapping artefacts. HIGH-impact calls in these regions are more likely to reflect technical mapping difficulty than genuine truncating somatic mutations, and would require additional scrutiny (e.g. manual alignment review, orthogonal confirmation) before being treated as biologically meaningful.
+Some genes in the HIGH-impact list including HLA loci (e.g. HLA-DQA1, HLA-DRB1) and mucin genes (e.g. MUC4, MUC16, MUC6) lie in highly polymorphic or repetitive genomic regions that are prone to alignment and mapping artefacts. HIGH-impact calls in these regions are more likely to reflect technical mapping difficulty than genuine truncating somatic mutations, and would require additional scrutiny (e.g. manual alignment review, orthogonal confirmation) before being treated as biologically meaningful.
 
 ---
 
